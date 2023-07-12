@@ -1,0 +1,8 @@
+.Footer{
+    padding: 24px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}

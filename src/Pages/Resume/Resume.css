@@ -1,0 +1,29 @@
+.aboutme_text{
+    color: darkslategray;
+    font-size: smaller;
+    line-height: 22px !important;
+    white-space: pre-line !important;
+}
+
+.resume_timeline .timeline_content .timeline_tittle{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.resume_timeline  .timeline_content .timeline_date {
+    color:  darkslategray;
+}
+
+.resume_timeline  .timeline_content .timeline_descritpin{
+    color: gray;
+    font-size: small;
+    margin-top: 6px;
+}
+
+.cleint_image{
+    width: 100%;
+}
+
+.cleint_image img{
+    height: 150px;
+}
