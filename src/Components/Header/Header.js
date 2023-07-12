@@ -1,20 +1,20 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  Button ,
-  Form,
-  FormControl,
+  // Button ,
+  // Form,
+  // FormControl,
   Nav,
   Navbar,
-  NavDropdown,
-  Container
+  // NavDropdown,
+  // Container
 }from "react-bootstrap"
 import HomeIcon from '@mui/icons-material/Home';
-import SchoolIcon from '@mui/icons-material/School';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import { Link , NavLink, withRouter } from "react-router-dom";
+// import SchoolIcon from '@mui/icons-material/School';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+import {  NavLink, withRouter } from "react-router-dom";
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../Buttons/Button';
 import NearMeIcon from '@mui/icons-material/NearMe';
@@ -43,7 +43,7 @@ import "./Header.css"
 
       <Navbar.Collapse>
         <Nav>
-          <Nav.Link as={NavLink} to="/" className={pathname=='/'?"header_link_active" : "header_link"}>Resume</Nav.Link>
+          <Nav.Link as={NavLink} to="/" className={pathname==='/'?"header_link_active" : "header_link"}>Resume</Nav.Link>
           
         </Nav>
         <div>
@@ -55,7 +55,7 @@ import "./Header.css"
         </div>
         <div className='header_right'>
           {Object.keys(resumeData.socials).map((key) =>(
-            <a href={resumeData.socials[key].link} target="_blank">{resumeData.socials[key].icon}</a>
+            <a href={resumeData.socials[key].link} target="_blank"  rel="noreferrer" >{resumeData.socials[key].icon}</a>
           ))}
 
           <CustomButton text={"Hire me"} icon={<NearMeIcon />}></CustomButton>

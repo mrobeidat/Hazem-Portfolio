@@ -1,9 +1,9 @@
-import FacebookIcon from '@mui/icons-material/Facebook';
+// import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import GitHubIcon from '@mui/icons-material/GitHub';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 
-export default {
+ const resumeData = {
     name:"hazim khasawneh",
     title:"Front - end developer",
     email:"hazemkh51@gmail.com",
@@ -53,3 +53,4 @@ export default {
     clients:" Work with (WW) Weight Watchers is a global company headquartered in the U.S. that offers weight loss and maintenance, fitness . Also work with PwC It is the second-largest professional services network in the world and is considered one of the Big Four accounting firms"
 
 }
+export default resumeData

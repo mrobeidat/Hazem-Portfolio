@@ -4,7 +4,7 @@ import { Grid, Typography } from '@mui/material'
 import resumeData from '../../utils/resumeData'
 import CustomTimeline  ,{CustomTimeLineSepartor} from "../../Components/TimeLine/Timeline" 
 import WorkIcon from '@mui/icons-material/Work';
-import { TimelineContent, TimelineDot, TimelineItem, TimelineSeparator } from '@mui/lab'
+import { TimelineContent, TimelineDot, TimelineItem } from '@mui/lab'
 import SchoolIcon from '@mui/icons-material/School';
 function Resume() {
   return (
