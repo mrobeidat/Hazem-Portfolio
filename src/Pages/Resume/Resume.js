@@ -3,7 +3,7 @@ import "./Resume.css"
 import { Grid, Typography } from '@mui/material'
 import resumeData from '../../utils/resumeData'
 import CustomTimeline  ,{CustomTimeLineSepartor} from "../../Components/TimeLine/Timeline" 
-// import WorkIcon from '@mui/icons-material/Work';
+import WorkIcon from '@mui/icons-material/Work';
 import { TimelineContent, TimelineDot, TimelineItem } from '@mui/lab'
 import SchoolIcon from '@mui/icons-material/School';
 function Resume() {
@@ -34,7 +34,7 @@ function Resume() {
           <Grid container  className='resume_timeline'>
             {/** working history */}
             <Grid item sm={12} md={6}>
-              <CustomTimeline title="Work Experience">
+              <CustomTimeline title="Work Experience" icon={<WorkIcon/>}>
                 {resumeData.experiences.map((experience) =>(
                   <TimelineItem >
                     <CustomTimeLineSepartor className='sperator_padding'>
