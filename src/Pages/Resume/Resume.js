@@ -30,7 +30,7 @@ function Resume() {
               <h6 className='section_title_text'>Resume</h6>
         </Grid>
 
-        <Grid item xs={12}>
+        <Grid item xs={12} md={12} >
           <Grid container  className='resume_timeline'>
             {/** working history */}
             <Grid item sm={12} md={6}>
