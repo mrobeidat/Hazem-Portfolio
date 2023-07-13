@@ -1,6 +1,5 @@
 import { Typography } from '@mui/material'
 import React, { useState, useEffect } from 'react';
-
 import './Profile.css'
 import CustomTimeline, { CustomTimeLineSepartor } from '../TimeLine/Timeline'
 import resumeData from '../../utils/resumeData';
@@ -57,6 +56,8 @@ function Profile() {
         {HeaderImg.map((header, index) => (
           <img src={urlFor(header.imgUrl)} alt={header.name} />
         ))}
+
+
       </figure>
 
       <div className='profile_information'>

@@ -1,19 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {
-  // Button ,
-  // Form,
-  // FormControl,
-  Nav,
-  Navbar,
-  // NavDropdown,
-  // Container
-} from "react-bootstrap"
+import { Nav, Navbar } from "react-bootstrap"
 import HomeIcon from '@mui/icons-material/Home';
-// import SchoolIcon from '@mui/icons-material/School';
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
-// import GitHubIcon from '@mui/icons-material/GitHub';
 import { NavLink, withRouter } from "react-router-dom";
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../Buttons/Button';

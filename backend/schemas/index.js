@@ -1,3 +1,5 @@
-import Header from './Header'
+import Header from './Header';
+import Resume from './Resume';
+import Education from './Education';
 
-export const schemaTypes = [Header]
+export const schemaTypes = [Header, Resume, Education]
