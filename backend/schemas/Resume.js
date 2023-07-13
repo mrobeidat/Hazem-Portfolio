@@ -1,7 +1,10 @@
+import {CaseIcon} from '@sanity/icons'
+
 export default {
     name: 'company',
     title: 'Work',
     type: 'document',
+    icon: CaseIcon,
     fields: [
         {   
             name: 'title',

@@ -1,7 +1,10 @@
+import {BookIcon} from '@sanity/icons'
+
 export default {
     name: 'education',
     title: 'Education',
     type: 'document',
+    icon : BookIcon, 
     fields: [
         {
             name: 'institution',

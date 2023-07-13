@@ -1,13 +1,18 @@
+import {CalendarIcon} from '@sanity/icons'
+
+
 export default
     {
         name: 'Header',
         title: 'Header',
         type: 'document',
+        icon: CalendarIcon,
         fields: [
             {
                 name: 'name',
                 title: 'Name',
-                type: 'string'
+                type: 'string',
+               
             },
             {
                 name: 'imgUrl',
